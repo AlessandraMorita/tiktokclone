@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
-import "./Video.css";
+import "./video.css";
+import VideoFooter from "./components/videoFooter/VideoFooter";
 
 function Video() {
   const videoRef = useRef(null);
@@ -13,7 +14,7 @@ function Video() {
       videoRef.current.pause();
       setPlay(false);
     }
-  };
+  }
 
   return (
     <div className="video-container">
@@ -25,6 +26,7 @@ function Video() {
       >
         Your browser does not support the video tag.
       </video>
+      <VideoFooter />
     </div>
   );
 }
