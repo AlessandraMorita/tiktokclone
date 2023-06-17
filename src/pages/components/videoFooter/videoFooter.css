@@ -40,7 +40,8 @@
 .videoFooter_icons {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: end;
+  align-items: center;
 }
 
 .videoFooter_vinyl {

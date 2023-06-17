@@ -2,9 +2,11 @@ import React, { useRef, useState } from "react";
 import "./video.css";
 import VideoFooter from "./components/videoFooter/VideoFooter";
 
-function Video() {
+function Video(props) {
   const videoRef = useRef(null);
   const [play, setPlay] = useState(false);
+  const url = props.videoInfo.url;
+  const alt = props.videoInfo.alt;
 
   function handleStart() {
     if (!play) {
@@ -18,15 +20,10 @@ function Video() {
 
   return (
     <div className="video-container">
-      <video
-        src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/brecker2.mp4?t=2023-05-22T19%3A37%3A45.885Z"
-        ref={videoRef}
-        onClick={handleStart}
-        loop
-      >
+      <video src={url} ref={videoRef} onClick={handleStart} loop alt={alt}>
         Your browser does not support the video tag.
       </video>
-      <VideoFooter />
+      <VideoFooter footerInfo={props.videoInfo} />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.videoSideBar_icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.videoSideBar_icon p {
+    font-size: 0.7rem;
+}
