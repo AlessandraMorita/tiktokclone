@@ -1,7 +1,7 @@
 # Tiktok clone
 ### Introduction
 
-This is a React web application. It clones Tiktok's basic functions.
+This is a React web application. It clones Tiktok's basic functions and is the project of the course 'Jornada Fullstack - EBAC'.
 
 Contents
 ========
