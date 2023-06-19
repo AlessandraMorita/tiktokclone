@@ -13,7 +13,7 @@ html {
     max-height: 800px;
     height: 100vh;
     max-width: 500px;
-    width: 90%;
+    width: 80%;
     border-radius: 20px;
     overflow: scroll;
     scroll-snap-type: y mandatory;
@@ -26,8 +26,13 @@ html {
 }
 
 /* Hide the scrollbar from internet explorer, edge e firefox */
-
 .app_video {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+@media only screen and (max-width: 440px){
+    .app_video{
+        width: 100%;
+    }
 }
