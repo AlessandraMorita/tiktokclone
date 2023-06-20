@@ -3,11 +3,12 @@
 
 This is a React web application. It clones Tiktok's basic functions and is the project of the course 'Jornada Fullstack - EBAC'.
 
+To view the live page: **[click here](https://tiktok---jornada-5dd51.web.app/)**
+
 Contents
 ========
 
  * [Why?](#why)
- * [How To See?](#how-to-see)
  * [Technologies](#technologies)
  * [Project status](#project-status)
 
@@ -15,24 +16,6 @@ Contents
  ## Why?
  
  I wanted to practice my knowledge of React components and some new Fullstack skills.
- 
- ## How To See?
- 
- You'll need [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
- 
- ```bash
-# Clone this repository
-$ git clone https://github.com/AlessandraMorita/tiktokclone
-
-# Go into the repository
-$ cd tiktokclone
-
-# Installs the required dependencies
-$ npm install
-
-# Run the React project
-$ npm start
-```
 
 ## Technologies
 
@@ -40,6 +23,7 @@ $ npm start
 * CSS
 * JavaScript
 * React
+* Integration with Firebase
 
 ## Project status
 
